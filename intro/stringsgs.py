@@ -91,19 +91,26 @@
 
 
 
+
+
+
+
+""
+''
+
 # #String Escapes
 
-# # print('this musn't happen')
+# # print('this musn\'t happen')
 
 # # print(("this musn't happen"))
            
-# # print(('this musn\'t happen'))
+# print(('this musn\'t happen'))
 
 
-# # # print(a="this is a text")
-# # # print(a)
-# # a = "thi sis text"
-# # print(a)
+# print(a="this is a text")
+# print(a)
+a = "thi sis text"
+print(a)
 
 
 
@@ -111,36 +118,121 @@
 # # Multi-line strings can be handled in three ways, each line separated by a \  the use of triple quotes.  Add parentheses to make the long line
 
 # text = "This is is a string\
-#       this is also a strng \
-#       tis is also a string"
+# this is also a strng \
+# tis is also a string"
 
 # print(text)
 
 
-# text2 = """This is is a string
-#       this is also a strng 
-#       tis is also a string"""
+text2 = """This is is a string\      
+this is also a strng 
+      tis is also a string"""
+
+# print(__doc__.isalnum)
+
 
 # print(text2)
+
+#This program adds two numbers
+
+
+
 
 
 # #string parenthesis
 
-# text3 = ("%d hello,"
-#         "or %s, "
-#         " or %s,"
-#         %(3, "hols", "hola"))
+# text3 = ("%f hello," "or %d, " " or %s,"
+#         %( 435345345.7,3, "hola"))
 
 # print(text3)
-# g  = 5
-# printf('The number is %d', g)
+# g  ='\\'
+# print('The numbeer is %d', g)
+# print(f'The number is {g}')
 
 
-# a = "this is a text. \\ This should be on a new line"
+# a = f"this is a text.  {g}\ This should be on a new line"
 
-# a = "this is a text. \a This should be on a new line"
+# g = '\x07'
+
+# a = f"this is a text. {g} This should be on a new line \7 this is on the third line"
+# print('\n, This is an event')
+
+# a = r"this musn't happen"
+
 # print(a)
 
+a = 'hello' + 'there'
+a = a + 'this'
+
+
+
+b = 'l'
+print(a)
+
+# a[2] = 9
+
+print(a[1])
+
+print(a)
+
+
+
+x = -1
+
+0
+print(len(a))
+for  count in a :
+    
+    x+=1
+   
+    print(f'{x}', id(count))
+    # print(x)
+
+# print(id(b))
+
+# # length of a string = n
+# # final position : n-1
+
+# d = 76777
+# # print('This is d[0]',d[0])
+
+# for count in d:
+#     print(count)
+
+
+
+
+#new line : \n
+
+
+
+#ascii bell : \x07
+
+
+
+#string concatenation
+
+A = 'This is cherry'
+B = 'Awesome'
+D = ' '* 100
+C = A + D+ B
+
+print(C)
+
+
+print(f'{A[0:8]} {B} {A[8:]}')
+
+
+
+
+A = '1'
+B = '2'
+D = 4
+C = A+B
+print(C)
+
+print('My age is '+C)
+print('My age is '+1+D)
 
 
 
